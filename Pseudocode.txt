@@ -5,8 +5,8 @@ public class pets {
 	public static void main(String [] args) 
 	{
 		//Variables for the methods to use (likey int values, may be alpha character values)
-		//initInput 
-		//petType dog or cat
+		//int initInput CheckIn-1 CheckOut-2 Manage-3 Reports-4
+		//int petType dog-1 or cat-2
 		//int dogSpace[] max 30
 		//int catSpace[] max 12
 		//custType
@@ -31,10 +31,10 @@ public class pets {
 		//Create main method
 			//Method will require input from the user with printed instruction
 			//First input Check In, Out, Manage or Reports
-			//If Input is Check In -> checkIn() starts
-			//If Input is Check Out -> checkOut() starts
-			//If Input is Manage -> petMgr() starts
-			//If Input is Reports -> Statement prints "Reports are not enabled at this time."
+			//If Input is Check In-1 -> checkIn() starts
+			//Else If Input is Check Out-2 -> checkOut() starts
+			//Else If Input is Manage-3 -> petMgr() starts
+			//Else If Input is Reports-4 -> Statement prints "Reports are not enabled at this time."
 		
 		//Create checkIn() method
 			//Method will require input from the user with printed instruction
