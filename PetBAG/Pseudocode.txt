@@ -1,0 +1,74 @@
+Pseudocode notes
+
+
+public class pets {
+	public static void main(String [] args) 
+	{
+		//Variables for the methods to use (likey int values, may be alpha character values)
+		//int initInput CheckIn-1 CheckOut-2 Manage-3 Reports-4
+		//int petType dog-1 or cat-2
+		//int dogSpace[] max 30
+		//int catSpace[] max 12
+		//custType
+		//boolean custUpdate
+		//spaceCleaning
+		//customerData[]
+			//customerName
+			//customerPhone
+			//customerPetName
+			//boolean customerPaid
+			//stayLength
+			//groomSchedule
+			//boolean of grooming
+			//pet notes
+		//petData[]
+			//feedings
+			//yardTimes
+			//weight
+			//groomingReqs
+
+		
+		//Create main method
+			//Method will require input from the user with printed instruction
+			//First input Check In, Out, Manage or Reports
+			//If Input is Check In-1 -> checkIn() starts
+			//Else If Input is Check Out-2 -> checkOut() starts
+			//Else If Input is Manage-3 -> petMgr() starts
+			//Else If Input is Reports-4 -> Statement prints "Reports are not enabled at this time."
+		
+		//Create checkIn() method
+			//Method will require input from the user with printed instruction
+			//Input of pet type, dog or cat
+			//If dog then dogSpace array will be checked against current length of the area to verify space
+			//If cat then catSpace array will be checked against current length of the area to verify space
+			//Method then prints request for New or returning customer
+			//If New Customer, user inputs information for customer, name, phone, pet name 
+			//If Returning customer, and needs to update information for customer, then input name, phone and pet name
+			//If Returning customer, and doesn't need to update information, move to next input
+			//Input request for length of stay -> stayLength
+			//If Dog && over 2 stayLength request additional grooming services
+			//Else Assign Space
+			//Checks for empty space and assign customer and pet to the space.
+			//Customer pre-pay asked, sets boolean customerPaid and saves to that customer data.
+			//Return to Main
+		
+		//Create checkOut() method
+			//Method will check for customerPetName in customerData[] from user input
+			//Check if Grooming was scheduled in customerData[]
+			//Calculate any remaining amout due if customerPaid is false
+				//Cat 18 dog 30lbs or more 34 with 29.95 grooming dog 20-30 29 +24.95 grooming dog less than 20 24 + 19.95 grooming
+			//Lock Space for Cleaning in dogSpace or catSpace arrays
+			//Return to Main
+			
+		//Create petMgr() method
+			//Change Spaces within each array for pet, per type
+			//record data in petData[] for feeding, yard time, weight, grooming and in customerData[] petNotes
+			//Denote if a customer paid for stay
+			//Check space scheduled for cleaning, send alert when ready.
+			//Return to Main
+
+
+		*REPORTS*
+		//tbd
+	}
+}

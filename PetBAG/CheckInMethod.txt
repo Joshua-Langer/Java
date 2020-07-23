@@ -1,0 +1,22 @@
+		//Variables for Method
+			//petType
+			//petName
+			//petAge
+			//dogSpace
+			//catSpace
+			//daysStay
+			//amountDue
+		
+		//Create checkIn() method
+			//Request Input from user for the pet type.
+			//Set petType to input from user check against scanner next and check against a boolean
+			//If petType is dog get dogSpace for empty space
+				//loop to assign dogSpace for pet and set dogSpace with petName, petAge, daysStay ->dogSpaceNum
+				//setGrooming()
+				//setDogWeight()
+				//calculate amountDue
+			//Else If petType is cat get catSpace for empty space
+				//loop to assign catSpace for pet and set catSpace with petName, petAge, daysStay ->catSpaceNum
+				//calculate amountDue
+			
+			
